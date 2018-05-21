@@ -14,6 +14,8 @@ public class LinkedList {
 		}
 	}
 
+	public void insert(int value) {}
+
 	public void addLast(int value) {
 		Node tmp = head;
 		while(tmp.next != null) {
