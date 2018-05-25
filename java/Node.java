@@ -1,10 +1,19 @@
 public class Node {
 
-	public int value;
-	Node next;
+       public int value;
 
-	public Node (int value) {
-		this.value = value;
-	}
+       Node next;
+
+       Node prev;
+
+
+
+       public Node (int value) {
+
+             this.value = value;
+
+       }
+
+
 
 }
